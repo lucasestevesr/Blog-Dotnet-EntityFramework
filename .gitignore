@@ -1,5 +1,5 @@
 bin/
 obj/
-
+Data/
 /node_modules
 /wwwroot/node_modules

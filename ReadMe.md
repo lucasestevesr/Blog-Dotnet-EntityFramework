@@ -14,3 +14,14 @@ AsNoTracking() - Caso eu não queira fazer upload ou remove, e assim, não quise
 Ajuda bastante na desempenho.
 
 AsNoTracking() - Pode ser prejudicial caso você precise de algum metadado, como referência a alguma FK. Por isso Update e Deelte não é recomendado.
+
+FirstOrDefault() - Executa a query como o ToList(). Caso não encontre, é default retorna nulo.
+First() - retorna erro caso não contenha elemento.
+Single e SingleOrDefault() - Atua igualmente ao FirstOrDefault().
+
+
+
+----------
+Mapeamento
+Deparamento - Tabela do Banco <-> Classe.
+Permite gerar o banco automaticamente.

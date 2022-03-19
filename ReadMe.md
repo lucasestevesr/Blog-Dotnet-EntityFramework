@@ -22,6 +22,10 @@ Single e SingleOrDefault() - Atua igualmente ao FirstOrDefault().
 
 
 ----------
-Mapeamento
+Mapeamento EF
 Deparamento - Tabela do Banco <-> Classe.
 Permite gerar o banco automaticamente.
+
+
+Mapeamento por Data Annotations -> projetos pequenos
+Mapeamento Fluente -> mais fléxivel
